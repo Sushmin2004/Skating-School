@@ -1,0 +1,265 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-wrapper img {
+    height: 65px;
+    padding: 10px;
+}
+
+.about-img {
+    flex: 1;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    height: 10vh;
+}
+
+.nav-btn-wrapper {
+    padding: 23px;
+    flex: 2;
+}
+
+.nav-btn-wrapper a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    padding: 9px 14px;
+    border-radius: 17px;
+    font-size: 14px;
+}
+
+.model-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-img-wrappper img {
+    height: 90vh;
+}
+
+.about-wrapper {
+    width: 20%;
+}
+
+.about-wrapper img {
+    height: 55px;
+    margin-bottom: 35px;
+}
+
+.about-wrapper h1 {
+    font-size: 60px;
+}
+
+a:hover {
+    background-color: #f0390f;
+    color: white;
+}
+
+.model-2-wrapper {
+    margin-top: 60px;
+    height: 100vh;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+.text-wrapper h1 {
+    margin-bottom: 10px;
+}
+
+.text-wrapper p {
+    margin-bottom: 40px;
+}
+
+.wrapper-1,
+.wrapper-2,
+.wrapper-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0390f;
+    height: 28rem;
+    width: 95%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper-2 {
+    background-color: #3e0bce;
+}
+
+.about-model-wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#img-1 {
+    margin: auto;
+}
+
+.about-model-wrapper h3 {
+    text-align: center;
+}
+
+.about-model-wrapper p {
+    padding: 35px;
+}
+
+.about-model-wrapper h4 {
+    color: black;
+}
+
+.about-2-wrapper,
+.about-3-wrapper,
+.about-4-wrapper {
+    width: 20%;
+}
+
+.about-2-wrapper h4,
+.about-3-wrapper h4,
+.about-4-wrapper h4 {
+    margin-top: 20%;
+}
+
+.skate-wrapper {
+    color: white;
+    background-image: url(about_bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skate-image-wrapper {
+    align-self: flex-end;
+}
+
+.about-skate-wrapper {
+    height: 45%;
+    width: 35%;
+}
+
+.about-skate-wrapper h1 {
+    font-size: 50px;
+}
+
+@media (min-width: 373px) and (max-width: 768px) {
+    .nav-btn-wrapper {
+        padding: 6px;
+        flex: 5;
+    }
+
+    .nav-btn-wrapper a {
+        margin-right: 0px;
+        padding: 7px 8px;
+        font-size: 10px;
+    }
+
+    .about-img-wrappper img {
+        height: 40vh;
+    }
+
+    .nav-wrapper img {
+        height: 53px;
+        padding: 7px;
+    }
+
+    .about-wrapper img {
+        height: 15px;
+    }
+
+    .about-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .about-wrapper {
+        width: 25%;
+    }
+
+    .model-2-wrapper {
+        height: 100%;
+    }
+
+    .about-model-wrapper {
+        margin: auto;
+        display: block;
+    }
+
+    .about-2-wrapper,
+    .about-3-wrapper,
+    .about-4-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .skate-image-wrapper {
+        align-self: center;
+    }
+    
+    .about-skate-wrapper p {
+        font-size: 10px;
+    }
+
+    .about-skate-wrapper h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav-btn-wrapper a {
+        margin-right: 0px;
+    }
+
+    .about-img-wrappper img {
+        height: 60vh;
+    }
+
+    .nav-wrapper img {
+        height: 63px;
+    }
+
+    .about-wrapper img {
+        height: 35px;
+    }
+
+    .about-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .about-2-wrapper, .about-3-wrapper, .about-4-wrapper {
+        width: 32%;
+    }
+
+    .skate-image-wrapper{
+        width: 70%;
+    }
+
+    .about-skate-wrapper {
+        width: 30%;
+    }
+
+    .about-skate-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .about-skate-wrapper p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .about-wrapper h1 {
+        font-size: 50px;
+    }
+
+    .about-2-wrapper, .about-3-wrapper, .about-4-wrapper {
+        width: 25%;
+    }    
+}
